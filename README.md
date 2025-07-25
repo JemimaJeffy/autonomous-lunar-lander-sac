@@ -43,11 +43,11 @@ The lunar surface is rendered with Cesium’s digital elevation maps and Unreal 
 
 ---
 
-## 🛰️ Simulation Download Links
+## 🛰️ Simulation Download Links (Unreal Engine)
 
 | Purpose | Link |
 |--------|------|
-| Training Environment (Unreal + Cesium) | [Download from Drive](https://drive.google.com/drive/folders/1XmV6gpCfsQzmRAYJkY0MUoovVqERBa1M?usp=drive_link) |
+| Training Environment | [Download from Drive](https://drive.google.com/drive/folders/1XmV6gpCfsQzmRAYJkY0MUoovVqERBa1M?usp=drive_link) |
 | Deployment Build | [Download from Drive](https://drive.google.com/drive/folders/1R2mTc_GDRCa5Q2y2snXSGrK7XvnOnd_G?usp=drive_link) |
 
 ---
