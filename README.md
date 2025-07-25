@@ -1,10 +1,10 @@
-#Autonomous Lunar Lander using Soft Actor-Critic (SAC)
+# Autonomous Lunar Lander using Soft Actor-Critic (SAC)
 
 This project implements an **AI-powered autonomous lunar lander** using the **Soft Actor-Critic (SAC)** reinforcement learning algorithm. The agent is trained to perform safe and efficient landings on diverse lunar terrains simulated using **Unreal Engine 5** with Cesium integration. It aims to overcome the limitations of traditional rule-based systems by introducing real-time control, adaptability, and decision-making in unknown environments.
 
 ---
 
-##Overview
+## Overview
 
 Autonomous lunar landing presents significant challenges due to unpredictable terrain, delayed communication, and real-time hazard handling. This project focuses on training an SAC-based agent to:
 
@@ -14,7 +14,7 @@ Autonomous lunar landing presents significant challenges due to unpredictable te
 
 ---
 
-##Core Technologies
+## Core Technologies
 
 - **Soft Actor-Critic (SAC):** A continuous control reinforcement learning algorithm that optimizes both performance and entropy for stability and exploration.
 - **Unreal Engine 5 + Cesium:** For realistic simulation of lunar terrain using actual elevation data.
@@ -23,7 +23,7 @@ Autonomous lunar landing presents significant challenges due to unpredictable te
 
 ---
 
-##Training Setup
+## Training Setup
 
 - **State Space:** Altitude, velocity, orientation, fuel level, etc.
 - **Action Space:** Continuous thrust control in multiple axes
@@ -32,7 +32,7 @@ Autonomous lunar landing presents significant challenges due to unpredictable te
 
 ---
 
-##Simulation
+## Simulation
 
 The lunar surface is rendered with Cesium’s digital elevation maps and Unreal Engine’s physics engine. The lander includes:
 - Functional thrusters
@@ -41,23 +41,23 @@ The lunar surface is rendered with Cesium’s digital elevation maps and Unreal 
 
 ---
 
-##Running the Project
+## Running the Project
 
-###Prerequisites
+### Prerequisites
 - Python 3.9+
 - PyTorch
 - OpenAI Gym
 
-##Results
-- Achieved safe landings in majority of the simulation episodes
+## Results
+- Achieved safe landings in the majority of the simulation episodes
 - Smooth descent profiles under diverse terrain and gravity settings
 - Fully modular pipeline for future deployment and testing
 
-##Future Work
+## Future Work
 - Integrate SLAM for onboard terrain mapping
 - Extend to Mars or asteroid landings
 - Deploy on edge devices (Jetson Nano, Raspberry Pi)
 - Multi-agent lander coordination
 
-##License
+## License
 This project is developed as part of academic work and is intended for research and educational use.
