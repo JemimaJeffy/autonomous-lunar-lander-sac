@@ -12,6 +12,8 @@ Autonomous lunar landing presents significant challenges due to unpredictable te
 - Adapt to variable terrain and environmental noise
 - Operate in a **high-fidelity 3D simulation** of the lunar surface
 
+
+[![](examples/thumbnail.png)](https://drive.google.com/file/d/19TFTuzj88FmSJ7o8BLVCeeI7VYIKLh6v/view?usp=drive_link)
 ---
 
 ## Core Technologies
@@ -41,12 +43,50 @@ The lunar surface is rendered with Cesium’s digital elevation maps and Unreal 
 
 ---
 
+## 🛰️ Simulation Download Links
+
+| Purpose | Link |
+|--------|------|
+| Training Environment (Unreal + Cesium) | [Download from Drive](https://drive.google.com/drive/folders/1XmV6gpCfsQzmRAYJkY0MUoovVqERBa1M?usp=drive_link) |
+| Deployment Build | [Download from Drive](https://drive.google.com/drive/folders/1R2mTc_GDRCa5Q2y2snXSGrK7XvnOnd_G?usp=drive_link) |
+
+---
+
 ## Running the Project
 
 ### Prerequisites
 - Python 3.9+
 - PyTorch
 - OpenAI Gym
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/JemimaJeffY/autonomous-lunar-lander-sac.git
+cd autonomous-lunar-lander-sac
+```
+
+### 2. Start the Backend (SAC API)
+
+```
+cd backend
+python app.py
+```
+
+### 3. Set Up and Run the Frontend
+
+You must first create a React app:
+```
+npx create-react-app frontend
+cd frontend
+npm install @mui/material @emotion/react @emotion/styled @splinetool/react-spline
+```
+Then, replace the contents of frontend/src with the project’s frontend code (if available).
+
+Finally, start the frontend:
+```
+npm start
+```
 
 ## Results
 - Achieved safe landings in the majority of the simulation episodes
